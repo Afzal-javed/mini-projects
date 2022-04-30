@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS grid</title>
+    <style>
+.container{
+display: grid;
+grid-template-areas: 'navbar navbar navbar navbar'
+'section section section aside'
+'footer footer footer footer';
+grid-gap: 1rem;
+
+}
+.item{
+    background-color: darkorange;
+    border: 1px solid black;
+}
+#navbar{
+    grid-area: navbar;
+
+}
+#section{
+    grid-area: section;
+
+}
+#aside{
+    grid-area: aside;
+}
+
+footer{
+    grid-area: footer;
+    display: block;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="navbar" class="item"> 
+            Home About Contact Us
+        </div>
+        <div id="section" class="item">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus labore totam a iste. Qui voluptatum ipsa, enim, dolor tenetur maxime beatae quos itaque ipsam, provident vel odit magni obcaecati eligendi!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, aut quidem quia ad nisi voluptatem fugiat quisquam dolore tempora reiciendis, molestias necessitatibus tenetur saepe, officia cumque consequuntur nesciunt. Magnam quisquam ab tempore! Unde tempore quaerat repudiandae consectetur aliquid accusamus repellendus aspernatur hic dolor corporis doloribus voluptatem cum quisquam tenetur numquam, sit ipsum recusandae deleniti omnis inventore soluta alias. Corrupti itaque fugiat nulla, voluptas nobis, saepe asperiores fugit hic, at perferendis veritatis. Aperiam debitis earum amet numquam ex sit culpa ipsum quas fuga adipisci. Commodi sed quia, sint aspernatur iure doloremque?
+        </div>
+        <div id="aside" class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil veritatis atque blanditiis, minima maxime laboriosam porro ex a voluptas voluptatum, quis esse recusandae. Iure veritatis ullam voluptatibus dolorem. Iste ipsa quae a culpa dolorem? Similique porro tempore sapiente magnam ducimus? Provident ex aspernatur quibusdam sit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quidem fugit illum repellendus non modi, dolor eius cum amet illo esse voluptates totam consequatur quibusdam dolorem cupiditate aliquid error ipsa voluptatibus? Nostrum odio in itaque aspernatur quos obcaecati laborum, labore odit mollitia assumenda fugit praesentium eligendi laboriosam dignissimos omnis aperiam harum, neque blanditiis atque tempore repellendus deleniti excepturi. Commodi deleniti, accusantium nihil nobis molestias pariatur autem laudantium beatae maiores est, sunt, veniam id illo excepturi! Explicabo recusandae, atque assumenda tenetur magnam eveniet odio mollitia ab optio laudantium vel eaque, dolores facere aspernatur culpa animi illum totam enim cum quisquam tempore! Quibusdam sint ad possimus beatae harum alias, adipisci numquam doloribus qui magni dicta doloremque eius modi corporis eaque necessitatibus perspiciatis non architecto repellendus nemo expedita! Ullam quasi natus officiis ratione soluta rem magnam sapiente quos doloribus quo, deleniti id exercitationem neque reiciendis tempora fuga repudiandae beatae distinctio fugiat 
+        </div>
+       
+            <footer  class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, maxime. Eum neque aliquam iure nostrum pariatur voluptates illo ullam deserunt earum illum </footer>
+       
+        <!-- <div class="item">this is  my box1</div>
+        <div class="item">this is  my box2</div>
+        <div class="item">this is  my box3</div>
+        <div class="item">this is  my box4</div>
+        <div class="item">this is  my box5</div>
+        <div class="item">this is  my box6</div>
+        <div class="item">this is  my box7</div>
+        <div class="item">this is  my box8</div>
+        <div class="item">this is  my box9</div>
+        <div class="item">this is  my box10</div> -->
+    </div>
+    <script>
+        let a="afzal";
+        console.log(`my name is ${a}`)
+    </script>
+</body>
+</html>

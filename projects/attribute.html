@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>attribute</title>
+    <style>
+.container{
+text-align: center;
+display: block;
+}
+input[type='text']{
+    padding: 23px;
+    border: 2px solid black;
+
+}
+a[target]{
+    font-size: 44px;
+    color: aqua;
+}
+li:nth-child(odd){
+    background-color: cadetblue;
+}
+li:nth-child(even){
+    background-color: crimson;
+}
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1> <a href="https://google.com" target="_blank">Go to google</a></h1>
+        <h1> <a href="https://facebook.com" target="_blank">Go to facebook</a></h1>
+        <form action="" class="form">
+            <input type="text" placeholder="Enter your name">
+            <input type="password" placeholder="Enter your password">
+            <input type="submit" value="Submit">
+        </form>
+        <ul>
+            <li class="item" id="item1">first</li>
+            <li class="item" id="item2">second</li>
+            <li class="item" id="item3">third</li>
+            <li class="item" id="item4">fourth</li>
+            <li class="item" id="item5">fifth</li>
+        </ul>
+
+    </div>
+   
+</body>
+</html>

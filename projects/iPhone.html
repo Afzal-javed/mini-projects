@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iphone</title>
+
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        background: url('iphone.jpg') no-repeat center fixed;
+        background-size: cover;
+        width: 100%;
+        height: 1500px;
+
+
+
+    }
+
+    .left {
+        display: inline-block;
+
+        position: absolute;
+        left: 17px;
+        top: -5px;
+        bottom: none;
+
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+        display: flex;
+        transition: all 6s ease-in-out;
+
+
+
+
+
+    }
+
+    img:hover {
+        transform: rotate(360deg);
+        filter: invert(85%);
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 40px;
+        text-decoration: underline;
+        cursor: default;
+        color: lightslategray;
+        line-height: 0px;
+
+
+
+
+
+    }
+
+    .mid {
+        display: block;
+        width: 79%;
+        margin: 50px 150px;
+
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: -60px;
+        top: 65px;
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+
+    }
+
+    .navbar li a {
+        color: whitesmoke;
+        text-decoration: none;
+        padding: 25px 45px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.h {
+        text-decoration: underline;
+        color: black;
+        font-style: italic;
+    }
+
+    .btn {
+        margin: 0px 45px;
+        padding: 5px 20px;
+        background-color: gray;
+        cursor: pointer;
+        border-radius: 20px;
+        font-size: 15px;
+        font-family: cursive;
+    }
+
+    #btn {
+
+
+        margin: 0px 45px;
+        padding: 5px 20px;
+        background-color: gray;
+        cursor: pointer;
+        border-radius: 20px;
+        font-size: 15px;
+        font-family: cursive;
+    }
+
+    #btn:hover {
+        text-decoration: underline;
+        color: white;
+    }
+
+    .btn:hover {
+        text-decoration: underline;
+        font-style: italic;
+        color: white;
+        background-color: black;
+    }
+
+    .header {
+        position: fixed;
+    }
+</style>
+
+<body>
+
+    <header class="header">
+        <div class="left">
+            <img src="logo1.png" alt="">
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#" class="h">Home</a></li>
+                <li> <a href="menu2.html" class="m">Menu</a></li>
+                <li> <a href="service.html" class="s">Service</a></li>
+                <li> <a href="about.html" class="a">About Us</a></li>
+                <li> <a href="contact.html" class="c">Contact Us</a></li>
+
+            </ul>
+        </div>
+        <div class="right">
+
+            <button id="btn"> <a href="login.html">Login</a> </button>
+
+
+        </div>
+
+    </header>
+</body>
+
+</html>

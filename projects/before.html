@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and After</title>
+    <style>
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    opacity:1;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 80px;
+}
+header .as{
+    background: url('iphone3.jpg') no-repeat center center/cover;
+    border: 2px solid white;
+    color: black;
+    border-radius: 50px;
+    height: 500px;
+    margin: 12px 23px;
+    opacity: 0.6;
+}
+.as h1{
+    justify-content: center;
+    align-items: center;
+    margin: 70px 354px;
+    opacity: 0.7;
+    cursor: pointer;
+
+    
+}
+li{
+   list-style: none;
+   margin: 0 auto;
+   padding: 20px;
+   cursor: pointer;
+}
+section{
+    height: 344px;
+    margin: 3px 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 50px;
+    justify-content: center;
+    cursor: pointer;
+}
+section h2{
+    font-size: 4ex;
+}
+section::after{
+    content:" this is content";
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+               <li class="item">Home</li>
+               <li class="item">About</li>
+               <li class="item">Service</li>
+               <li class="item">Contact Us</li>
+            </ul>
+        </nav>
+        <section>
+            <h2>
+                Welcome to Coding World
+            </h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque quidem dolorem aperiam ad perspiciatis recusandae, necessitatibus totam debitis rerum quis minus error hic assumenda voluptatibus aliquam similique atque quo enim.
+                <strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est rem iste architecto, soluta itaque similique alias obcaecati voluptate aspernatur! Odit ipsum dicta dolores!</strong>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam beatae labore voluptate, omnis aut nisi magni amet, illum architecto, ab blanditiis eveniet facilis facere? Temporibus dolores quo ad ex magni quam, architecto vel dolorum velit unde id non quisquam alias iste ipsum, vero dolor illo asperiores magnam optio pariatur? Sed dicta at iusto qui libero, quaerat, voluptatum excepturi quae modi eaque culpa magni eius fugiat deleniti dolor voluptatem harum aperiam voluptas id. Unde dolor animi alias vero commodi inventore, et rem repellat voluptatem consequuntur suscipit iusto, debitis repellendus sequi facere!
+            </p>
+        </section>
+        <div class="as">
+        <h1>My name is afzal javed from chandpar</h1>
+    </div>
+    </header>
+</body>
+</html>
